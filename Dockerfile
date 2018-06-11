@@ -1,3 +1,5 @@
-FROM tensorflow/tensorflow:latest-gpu
+FROM ubuntu
 
-RUN pip3 install ray gym observations
+RUN apt-get update
+RUN apt-get install python3 python3-pip
+RUN pip3 install tensorflow_gpu ray gym observations
