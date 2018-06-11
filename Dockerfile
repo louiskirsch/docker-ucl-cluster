@@ -28,4 +28,4 @@ RUN curl -O https://bootstrap.pypa.io/get-pip.py && \
     python3 get-pip.py && \
     rm get-pip.py
 
-RUN pip3 --no-cache-dir install tensorflow-gpu ray gym observations lazy click
+RUN pip3 --no-cache-dir install tensorflow-gpu ray gym observations lazy click opencv-python
