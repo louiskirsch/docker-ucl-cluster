@@ -20,6 +20,9 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
         rsync \
         software-properties-common \
         unzip \
+        libsm6 \
+        libxext6 \
+        libxrender-dev \
         && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
